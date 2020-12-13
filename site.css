@@ -17,13 +17,13 @@
 
 /* Change the color of links on hover */
 .navbar a:hover {
-    background-color: crimson;
+    background-color: blue;
     color: black;
 }
 
 /* Add an active class to highlight the current page */
 .navbar a.active {
-    background-color: crimson;
+    background-color: blue;
     color: white;
 }
 
@@ -127,7 +127,7 @@
 
 /* Style the links on the main photo */
 .where {
-    color: crimson;    
+    color: blue;    
 }
 .how a:hover {
     color: yellow;
