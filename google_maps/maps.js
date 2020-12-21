@@ -34,48 +34,48 @@ function initMap() {
     harvard_yard_map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
 
-    var fort_drum_info = "<strong>Fort Drum Aerospace Reset Contractor</strong><br/>" +
-        "<a href='https://home.army.mil/drum/index.php'>Helicopter Re-Manurfacturing</a>";
+    var fort_drum_info = "<strong>Very Scary Facility! </strong><br/>" +
+        "<a href='#'></a>";
 
-    var northwest_info = "<strong>Northwest Science Building</strong><br/>" + "Latitude: 42.3795462<br/>" + "Longitude: -71.1156024";
+    var northwest_info = "<strong>Very Scary Facility!</strong><br/>" + "Latitude: 42.3795462<br/>" + "Longitude: -71.1156024";
 
-    var chez_sheridan_info = "<strong>Steven Breen's Office/Shop</strong><br/>" + "9 Sheridan St<br/>" + "Nashua, NH 03064";
+    var chez_sheridan_info = "<strong>PIBBHNG Head-Quarters</strong><br/>" + "9 Sheridan St<br/>" + "Nashua, NH 03064";
 
-    var precision_coating_info = "<strong>Medical Device Coater</strong><br/>";
+    var precision_coating_info = "<strong>Very Scary Facility!</strong><br/>";
 
-    var berlin_city_info = "<strong>Automotive Finisher/Dealer</strong><br/>" + "Gorham, NH";
+    var berlin_city_info = "<strong>Very Scary Facility!</strong><br/>" + "Gorham, NH";
 
-    var cil_info = "<strong>Anodizer/Electro-Plater</strong><br/>" + "Lawrence, MA";
+    var cil_info = "<strong>Very Scary Facility!</strong><br/>" + "Lawrence, MA";
 
-    var colonial_info = "<strong>Aerospace/Industrial Finisher </strong><br/>" + "Milford, CT";
+    var colonial_info = "<strong>Very Scary Facility!</strong><br/>" + "Milford, CT";
 
-    var landing_info = "<strong>Composite Boat Design/Build Lab</strong><br/>" + "Arundel, ME";
+    var landing_info = "<strong>Very Scary Facility!</strong><br/>" + "Arundel, ME";
 
-    var lyndon_info = "<strong>Institutional Furniture Manufacturer</strong><br/>" + "Lyndon, VT";
+    var lyndon_info = "<strong>Very Scary Facility!</strong><br/>" + "Lyndon, VT";
 
-    var design_info = "<strong>Design/Fabrication Shop</strong><br/>" + "Cranston, RI";
+    var design_info = "<strong>Very Scary Facility!</strong><br/>" + "Cranston, RI";
 
-    var emtec_info = "<strong>Architectural Fabricator </strong><br/>" + "Bridgeport, CT";
+    var emtec_info = "<strong>Very Scary Facility!</strong><br/>" + "Bridgeport, CT";
 
-    var saratoga_info = "<strong>Job Fab Shop</strong><br/>" + "Saratoga Springs, NY";
+    var saratoga_info = "<strong>Very Scary Facility!</strong><br/>" + "Saratoga Springs, NY";
 
-    var whelen_info = "<strong>Emergency Equipment Manurfacturer</strong><br/>" + "Charlestown, NH";
+    var whelen_info = "<strong>Very Scary Facility!</strong><br/>" + "Charlestown, NH";
 
-    var boat_info = "<strong>Luxury Yacht Builder</strong><br/>" + "Richmond, ME";
+    var boat_info = "<strong>Very Scary Facility!</strong><br/>" + "Richmond, ME";
 
-    var mex_info = "<strong>OEM Volkswagon Parts Manurfaturer</strong><br/>" + "Puebla, Mexico";
+    var mex_info = "<strong>Very Scary Facility!</strong><br/>" + "Puebla, Mexico";
 
-    var pei_info = "<strong>Progressive Energy</strong><br/>" + "Bedford, NH Corporate Office<br/>" + "<a href='https://progressiveenergy.com'>PEI.Com</a>";
+    var pei_info = "<strong>Very Scary Facility!</strong><br/>" + "Bedford, NH Corporate Office<br/>" + "<a href='#'</a>";
     
-    var suntube_info = "<strong>Solaronics, Inc</strong><br/>" + "Auburn Hills, MI<br/>" + "<a href='https://solaronicsusa.com'>Solaronics.com</a>";
+    var suntube_info = "<strong>Very Scary Facility!</strong><br/>" + "Auburn Hills, MI<br/>" + "<a href='#'</a>";
     
-    var jfk_info = "<strong>Pan Am Air Freight</strong><br/>" + "JFK International Airport<br/>" + "Long Island, NY";
+    var jfk_info = "<strong>Very Scary Facility!</strong><br/>" + "JFK International Airport<br/>" + "Long Island, NY";
     
-    var ge_info = "<strong>Plastics Research/Developement</strong><br/>" + "Pittsfield, MA";
+    var ge_info = "<strong>Very Scary Facility!</strong><br/>" + "Pittsfield, MA";
     
-    var vt_ware_info = "<strong>Fabrication/Jobber Shop</strong><br/>" + "St Georges, VT";
+    var vt_ware_info = "<strong>Very Scary Facility!</strong><br/>" + "St Georges, VT";
     
-    var steel_info = "<strong>Steel Fabricator</strong><br/>" + "Allentown, PA";
+    var steel_info = "<strong>Very Scary Facility!</strong><br/>" + "Allentown, PA";
 
 
     var fort_drum_infowindow = new google.maps.InfoWindow({
@@ -167,128 +167,128 @@ function initMap() {
     var fort_drum_marker = new google.maps.Marker({
         position: fort_drum_latlng,
         map: harvard_yard_map,
-        title: 'Fort Drum Aerospace Contractor'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var northwest_marker = new google.maps.Marker({
         position: northwest_latlng,
         map: harvard_yard_map,
-        title: 'Northwest Science Building'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var chez_sheridan_marker = new google.maps.Marker({
         position: chez_sheridan_latlng,
         map: harvard_yard_map,
-        title: 'Steven Breen-Office/Shop',
+        title: 'PIBBHNG Head-Quarters',
         icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'
     });
 
     var precision_coating_marker = new google.maps.Marker({
         position: precision_coating_latlng,
         map: harvard_yard_map,
-        title: 'Precision Coating'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var berlin_city_marker = new google.maps.Marker({
         position: berlin_city_latlng,
         map: harvard_yard_map,
-        title: 'Automotive Dealer/Finisher'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var cil_marker = new google.maps.Marker({
         position: cil_latlng,
         map: harvard_yard_map,
-        title: 'Anodizer/Electro-Plater'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var colonial_marker = new google.maps.Marker({
         position: colonial_latlng,
         map: harvard_yard_map,
-        title: 'Aerospace Industry Plater/Finisher'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var landing_marker = new google.maps.Marker({
         position: landing_latlng,
         map: harvard_yard_map,
-        title: 'The Composite Boat Building School'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var lyndon_marker = new google.maps.Marker({
         position: lyndon_latlng,
         map: harvard_yard_map,
-        title: 'Furniture Manurfacturer'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var design_marker = new google.maps.Marker({
         position: design_latlng,
         map: harvard_yard_map,
-        title: 'Metal Fabrication Shop'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var emtec_marker = new google.maps.Marker({
         position: emtec_latlng,
         map: harvard_yard_map,
-        title: 'Architectural Fabricator'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var saratoga_marker = new google.maps.Marker({
         position: saratoga_latlng,
         map: harvard_yard_map,
-        title: 'Jobber Shop/ Metal Fab'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var whelen_marker = new google.maps.Marker({
         position: whelen_latlng,
         map: harvard_yard_map,
-        title: 'Emergency Equipment Manurfacturer'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var boat_marker = new google.maps.Marker({
         position: boat_latlng,
         map: harvard_yard_map,
-        title: 'Yacht Builder'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var mex_marker = new google.maps.Marker({
         position: mex_latlng,
         map: harvard_yard_map,
-        title: 'OEM Auto Parts Supplier'
+        title: 'Sketchy Toilet On Site!'
     });
 
     var pei_marker = new google.maps.Marker({
         position: pei_latlng,
         map: harvard_yard_map,
-        title: 'Progressive Energy Headquarters'
+        title: 'Sketchy Toilet On Site!'
     });
     
     var suntube_marker = new google.maps.Marker({
         position: suntube_latlng,
         map: harvard_yard_map,
-        title: 'Solaronics Plant'
+        title: 'Sketchy Toilet On Site!'
     });
     
     var jfk_marker = new google.maps.Marker({
         position: jfk_latlng,
         map: harvard_yard_map,
-        title: 'Pan Am Air Freight'
+        title: 'Sketchy Toilet On Site!'
     });
     
     var ge_marker = new google.maps.Marker({
         position: ge_latlng,
         map: harvard_yard_map,
-        title: 'Plastics R&D'
+        title: 'Sketchy Toilet On Site!'
     });
     
     var vt_ware_marker = new google.maps.Marker({
         position: vt_ware_latlng,
         map: harvard_yard_map,
-        title: 'Fab/Job Shop'
+        title: 'Sketchy Toilet On Site!'
     });
     
     var steel_marker = new google.maps.Marker({
         position: steel_latlng,
         map: harvard_yard_map,
-        title: 'Steel Fabricator'
+        title: 'Sketchy Toilet On Site!'
     });
 
     google.maps.event.addListener(fort_drum_marker, 'click', function () {
