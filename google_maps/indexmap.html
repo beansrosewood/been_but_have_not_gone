@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Places I've Been But Have Not Gone! -Map-</title>
+    <meta charset="utf-8" />
+
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMNn87a_o0wTPYifkDYMNDqF_7dcuRZZQ&callback=initMap&libraries=&v=weekly">
+    </script>
+    <script src="./maps.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="map.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="../index_qr_code.html"><span class="glyphicon glyphicon-qrcode"></span> PIBBHNG</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="../index.html">Home Page</a></li>
+                <li><a href="../photo_gallery/indexgallery.html">Toilet Art!</a></li>
+                <li><a href="../contact_form/indexform.html">Why does this exist?</a></li>
+                <li class="active"><a href="../google_maps/indexmap.html">Where are they?</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="map_top">
+    <h1>These Are Places You Should Not Go!</h1>
+    </div>    
+    <div id="map-canvas"></div>
+    <div class="map_note">
+        <h3>(The green marker is PIBBHNG Head-Quarters.)</h3>
+    </div>    
+</body>
