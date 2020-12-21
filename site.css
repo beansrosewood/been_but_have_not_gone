@@ -38,9 +38,9 @@
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 10px;
-    background-size:cover;
+    background-size:contain;
     padding-top: 50px;
-    padding-bottom: 35em;
+    padding-bottom: 30em;
     color: blue;
     border-width: medium;
     border-color: blue;
