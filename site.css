@@ -38,7 +38,7 @@
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 10px;
-    background-size:cover;
+    background-size:contain;
     background-attachment: fixed;
     padding-top: 50px;
     padding-bottom: 20em;
