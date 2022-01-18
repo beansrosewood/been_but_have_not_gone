@@ -161,6 +161,10 @@
 .pay_button {
     margin: 1em;
 }
+
+.bottom {
+    text-align: center;
+}
     
 .store_button {
     margin: 1em;    
